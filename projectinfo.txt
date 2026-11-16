@@ -1,0 +1,40 @@
+
+   Run     :  ./library        (Windows: library.exe)
+ 
+   First-run demo accounts
+       Librarian : ID = admin      Password = admin123
+       Student   : register from the main menu (option 3)
+       Librarian registration key (needed to create new librarians):
+                   LIB-2026
+ 
+   FILES (created automatically in the current folder)
+       students.txt      id|name|course|semester|email|passwordHash
+       librarians.txt    id|passwordHash
+       books.txt         id|title|author|category|total|available
+       ebooks.txt        id|title|author|category|description|file|available
+       issued_books.txt  issueId|studentId|bookId|issueDate|dueDate|returned
+       transactions.txt  one line per important activity (append only)
+       waitlist.txt      studentId|bookId   (the waiting queue)
+       ebooks/           the plain-text e-book files
+ 
+   DATA STRUCTURES USED (and why)
+       struct            Student, Librarian, Book, EBook, Issue group related
+                          data of one record into one variable.
+       Linked list       Books. The number of books keeps changing, so a
+                         list grows/shrinks without a fixed size limit.
+       Arrays            Students, librarians, e-books, issue records.
+                         Simple and fast when a maximum size is acceptable.
+       Queue (FIFO)      Students waiting for a book with no free copy.
+                         First student to wait is the first to be served.
+       Stack (LIFO)      "Recent activity" screen: the newest action is
+                         shown first. It is only a view; the permanent
+                         history stays safe in transactions.txt.
+       Linear search     Used to find books, students and e-books.
+       Bubble sort       Sorts the book list by title or by book ID.
+ 
+   SECURITY NOTE (college demo only)
+       Passwords are stored as a simple hash (djb2), never as plain text.
+       djb2 is NOT secure enough for a real system; real software should
+       use bcrypt / Argon2 with a random salt. Typed passwords are shown
+       as * characters on screen.
+  =====================================================================

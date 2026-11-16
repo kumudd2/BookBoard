@@ -1,0 +1,4 @@
+1|Learning C Basics|Library Demo Team|Programming|A very short introduction to C programming.|ebooks/c_basics.txt|1
+2|Data Structures Made Easy|Library Demo Team|Computer Science|Arrays, lists, stacks and queues in simple words.|ebooks/data_structures.txt|1
+3|Smart Study Habits|Library Demo Team|Self Help|Simple habits that help students study better.|ebooks/study_habits.txt|1
+1010|python|dev|programming|null|ebooks/ebook|1

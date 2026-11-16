@@ -1,0 +1,16 @@
+16-11-2026 08:33:17 | BOOK_ADDED     | admin | Book 106 (Biography of a Dwarf), 1 copies
+16-11-2026 08:35:03 | BOOK_UPDATED   | admin | Book 105 (Wings of Fire) updated
+16-11-2026 08:38:31 | BOOKS_SORTED   | admin | Books sorted by book ID
+16-11-2026 08:42:27 | STUDENT_ADDED  | system | Student 25101 (Kumud) registered
+16-11-2026 08:42:58 | STUDENT_ADDED  | system | Student 25102 (Ayush) registered
+16-11-2026 08:45:43 | PASSWORD       | admin | Librarian password changed
+16-11-2026 08:48:35 | PROFILE_UPDATED | 25101 | Student 25101 updated their profile
+16-11-2026 09:48:57 | BOOK_ADDED     | admin | Book 107 (Python), 3 copies
+16-11-2026 09:49:31 | BOOK_UPDATED   | admin | Book 101 (The C Programming Language) updated
+16-11-2026 09:50:20 | BOOK_ISSUED    | admin | Issue 1001: book 105 (Wings of Fire) to student 25101, due 30-11-2026
+16-11-2026 09:50:35 | BOOK_RETURNED  | admin | Issue 1001: book 105 returned by 25101 (fine Rs. 0)
+16-11-2026 09:50:59 | BOOKS_SORTED   | admin | Books sorted by title
+16-11-2026 09:58:30 | BOOK_ISSUED    | admin | Issue 1002: book 102 (Let Us C) to student 25101, due 30-11-2026
+16-11-2026 09:59:29 | BOOK_RETURNED  | admin | Issue 1002: book 102 returned by 25101 (fine Rs. 0)
+16-11-2026 10:01:36 | EBOOK_ADDED    | admin | E-book 1010 (python) added
+16-11-2026 10:05:52 | BOOK_ADDED     | admin | Book 12 (c), 2 copies

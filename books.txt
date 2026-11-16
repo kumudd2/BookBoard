@@ -1,0 +1,8 @@
+106|Biography of a Dwarf|Ayush Kala|Biography|1|1
+103|Data Structures Using C|Reema Thareja|Computer Science|2|2
+104|Introduction to Algorithms|Cormen, Leiserson, Rivest, Stein|Computer Science|2|2
+102|Let Us C|Yashavant Kanetkar|Programming|4|4
+107|Python|dev|programming|3|3
+101|The C Programming Language|Kernighan and Ritchie|Programming|3|3
+105|Wings of Fire|A P J Abdul Kalam|Biography|1|1
+12|c|kk sd|programming|2|2
